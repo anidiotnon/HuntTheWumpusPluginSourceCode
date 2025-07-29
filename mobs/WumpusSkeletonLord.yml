@@ -1,0 +1,23 @@
+WumpusSkeletonLord:
+  Type: SKELETON
+  Display: '§fWumpus Skeleton Lord'
+  Health: 20
+  Damage: 4
+  Drops: []
+  Options:
+    PreventOtherDrops: true
+    FollowRange: 50
+    MovementSpeed: 0
+  Equipment:
+    - WITHER_SKELETON_SKULL HEAD
+    - LEATHER_CHESTPLATE{color=BLACK} CHEST
+    - LEATHER_LEGGINGS{color=BLACK} LEGS
+    - LEATHER_BOOTS{color=BLACK} FEET
+    - BONE HAND
+  Skills:
+    - skill{s=BoneProjectile} ~onTimer:60
+    - potion{type=SLOW;duration=60;hasparticles=false} ~onTimer:1 @playersInRadius{r=3}
+  AITargetSelectors:
+    - players 
+  AIGoalSelectors:
+    - lookAtTarget
