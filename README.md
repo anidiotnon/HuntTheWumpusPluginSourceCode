@@ -1,1 +1,3 @@
 # HuntTheWumpusPluginSourceCode
+
+All Rights Reserved. 
