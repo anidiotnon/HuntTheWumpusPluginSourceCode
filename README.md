@@ -2,4 +2,4 @@
 
 All Rights Reserved. 
 
-MythicMobs: All MythicMobs configuration in the Mobs folder. 
+MythicMobs: All MythicMobs configuration in the mobs / skills folders. 
